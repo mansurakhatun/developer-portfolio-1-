@@ -1,0 +1,95 @@
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    color: orange;
+    font-size: 22px;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    color: grey;
+}
+
+span {
+    color: orange;
+}
+
+.link-button {
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: white;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.middle-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.half-width {
+    width: 50%;
+    padding: 4%;
+}
+
+.half-width img {
+    width: 90%;
+}
+
+.bottom-banner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.shadow {
+    box-shadow: 10px 10px 50px gray;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    padding-left: 20px;
+}
+
+#full-stack-border {
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato, salmon);
+    border-image-slice: 1;
+}
+
+#web-border {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
